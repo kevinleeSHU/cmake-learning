@@ -1,0 +1,17 @@
+参数1
+参数1参数2p3p4
+CMake Error at CMakeLists.txt:36 (message):
+  test send error
+
+
+after send error
+CMake Warning at CMakeLists.txt:41 (message):
+  test warning
+
+
+test none
+TEST NOTICE
+-- test status!!
+-- test VERBOSE
+-- Configuring incomplete, errors occurred!
+See also "/home/lyw/Code/cmake_study/03_cmake_basic/build/CMakeFiles/CMakeOutput.log".
