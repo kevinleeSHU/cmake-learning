@@ -67,3 +67,20 @@ if(${VAR}) # true
 else()
     message("\${VAR} is false")
 endif()
+
+#[[
+    变量判断
+        DEFINED 判断变量是否定义
+        EQUAL 判断数字（数字字符串）是否相等
+        STREQUAL 判断任意字符串是否相等
+]]
+set(VAR_DEF OFF)
+if(DEFINED VAR_DEF)
+    message("VAR_DEF is defined")
+endif()
+
+#[[
+    正则匹配
+        MATCHES
+]]
+
